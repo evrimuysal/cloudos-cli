@@ -1,4 +1,4 @@
-import { CloudOS } from '@cloudos/sdk';
+import { CloudOS } from 'cloudos-sdk';
 import { config } from './config';
 import chalk from 'chalk';
 

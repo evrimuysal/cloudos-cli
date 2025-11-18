@@ -1,7 +1,7 @@
 import inquirer from 'inquirer';
 import chalk from 'chalk';
 import ora from 'ora';
-import { CloudOS } from '@cloudos/sdk';
+import { CloudOS } from 'cloudos-sdk';
 import { config } from '../utils/config';
 
 export async function loginCommand() {
