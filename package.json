@@ -1,6 +1,6 @@
 {
   "name": "cloudos-cli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "CloudOS Command Line Interface",
   "bin": {
     "cloudos": "./dist/index.js"
@@ -45,4 +45,3 @@
   },
   "homepage": "https://github.com/evrimuysal/cloudos-cli#readme"
 }
-
