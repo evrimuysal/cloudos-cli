@@ -7,7 +7,7 @@ exports.loginCommand = loginCommand;
 const inquirer_1 = __importDefault(require("inquirer"));
 const chalk_1 = __importDefault(require("chalk"));
 const ora_1 = __importDefault(require("ora"));
-const sdk_1 = require("@cloudos/sdk");
+const cloudos_sdk_1 = require("cloudos-sdk");
 const config_1 = require("../utils/config");
 async function loginCommand() {
     console.log(chalk_1.default.blue.bold('\n🚀 CloudOS Login\n'));
@@ -27,7 +27,7 @@ async function loginCommand() {
     ]);
     const spinner = (0, ora_1.default)('Logging in...').start();
     try {
-        const cloudos = new sdk_1.CloudOS({
+        const cloudos = new cloudos_sdk_1.CloudOS({
             apiUrl: config_1.config.get('apiUrl') || 'http://localhost:3001/api',
         });
         const { token, user } = await cloudos.auth.login({

@@ -4,7 +4,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.getCloudOS = getCloudOS;
-const sdk_1 = require("@cloudos/sdk");
+const cloudos_sdk_1 = require("cloudos-sdk");
 const config_1 = require("./config");
 const chalk_1 = __importDefault(require("chalk"));
 function getCloudOS() {
@@ -14,7 +14,7 @@ function getCloudOS() {
         console.log(chalk_1.default.gray('Run "cloudos login" first'));
         process.exit(1);
     }
-    return new sdk_1.CloudOS({
+    return new cloudos_sdk_1.CloudOS({
         apiUrl: config_1.config.get('apiUrl'),
         token,
     });
