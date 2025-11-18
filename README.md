@@ -1,11 +1,11 @@
-# @cloudos/cli
+# cloudos-cli
 
 CloudOS Command Line Interface - Manage your CloudOS workspace from the terminal.
 
 ## Installation
 
 ```bash
-npm install -g @cloudos/cli
+npm install -g cloudos-cli
 ```
 
 ## Quick Start
@@ -99,7 +99,7 @@ The CLI stores configuration in `~/.config/cloudos-cli/`:
 
 ```json
 {
-  "apiUrl": "https://api.cloudos.io",
+  "apiUrl": "https://api.cloud-os.app",
   "token": "your-auth-token",
   "defaultWorkspace": "workspace-id"
 }
