@@ -1,5 +1,5 @@
 {
-  "name": "@cloudos/cli",
+  "name": "cloudos-cli",
   "version": "1.0.0",
   "description": "CloudOS Command Line Interface",
   "bin": {
@@ -19,7 +19,7 @@
   "author": "CloudOS Team",
   "license": "MIT",
   "dependencies": {
-    "@cloudos/sdk": "^1.0.0",
+    "cloudos-sdk": "^1.0.0",
     "commander": "^11.0.0",
     "chalk": "^4.1.2",
     "inquirer": "^8.2.5",
@@ -34,7 +34,16 @@
   },
   "files": [
     "dist",
-    "README.md"
-  ]
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/evrimuysal/cloudos-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/evrimuysal/cloudos-cli/issues"
+  },
+  "homepage": "https://github.com/evrimuysal/cloudos-cli#readme"
 }
 
