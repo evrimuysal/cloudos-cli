@@ -1,6 +1,6 @@
 {
   "name": "cloudos-cli",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "CloudOS Command Line Interface",
   "bin": {
     "cloudos": "./dist/index.js"
